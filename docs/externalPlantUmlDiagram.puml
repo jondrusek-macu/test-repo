@@ -1,0 +1,8 @@
+﻿```plantuml
+@startuml
+title Login Sequence
+    ComponentC->ComponentD: Login Request
+    note right of ComponentD: ComponentD logs message
+    ComponentD->ComponentC: Login Response
+@enduml
+```

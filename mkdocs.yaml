@@ -1,0 +1,8 @@
+﻿site_name: test-repo-component
+site_description: A sample service for test-repo
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

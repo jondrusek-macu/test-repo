@@ -1,0 +1,26 @@
+﻿apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-repo-component
+  description: A sample service for test-repo
+  labels:
+    team: platform
+    language: csharp
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/platform-team
+  providesApis:
+    - my-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-repo-api
+  description: REST API for test-repo
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/platform-team
+#  definition:
+#    $text: ./openapi.yaml
