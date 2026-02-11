@@ -22,5 +22,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:default/platform-team
-#  definition:
-#    $text: ./openapi.yaml
+  definition:
+    $text: ./openapi.yaml
