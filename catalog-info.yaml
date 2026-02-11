@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: test-repo-component
   description: A sample service for test-repo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   labels:
     team: platform
     language: csharp
