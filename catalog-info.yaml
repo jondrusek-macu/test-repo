@@ -25,4 +25,4 @@ spec:
   lifecycle: production
   owner: group:default/platform-team
   definition:
-    $text: https://alpsapi-dev.mtnam.org/swagger/AccountServices_v1/swagger.json
+    $text: ./swagger.json
