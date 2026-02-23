@@ -5,8 +5,9 @@ metadata:
   description: A sample service for test-repo
   annotations:
     backstage.io/techdocs-ref: dir:.
-    octopus.mtnam.org/project-slug: alps-core-api
+    backstage.io/code-coverage: scm-only
     github.com/project-slug: jondrusek-macu/test-repo
+    octopus.mtnam.org/project-slug: alps-core-api
   labels:
     team: platform
     language: csharp
