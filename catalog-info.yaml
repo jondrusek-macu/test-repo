@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     octopus.mtnam.org/project-slug: alps-core-api
+    github.com/project-slug: jondrusek-macu/test-repo
   labels:
     team: platform
     language: csharp
