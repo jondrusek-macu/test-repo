@@ -16,7 +16,3 @@ title Login Sequence
     ComponentB->ComponentA: Login Response
 @enduml
 ```
-
-```plantuml
-!include externalPlantUmlDiagram.puml
-```
