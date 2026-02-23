@@ -1,4 +1,4 @@
-﻿apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-repo-component
@@ -9,16 +9,12 @@ metadata:
   labels:
     team: platform
     language: csharp
-  tags:
-    - platform
-    - devportal
-    - internal
 spec:
   type: service
   lifecycle: production
-  owner: group:default/platform-team
+  owner: group:default/devsec-users
   providesApis:
-    - my-api
+    - test-repo-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -28,6 +24,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:default/platform-team
+  owner: group:default/devsec-users
   definition:
     $text: ./swagger.json
