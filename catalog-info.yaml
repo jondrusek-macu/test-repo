@@ -5,9 +5,14 @@ metadata:
   description: A sample service for test-repo
   annotations:
     backstage.io/techdocs-ref: dir:.
+    octopus.mtnam.org/project-slug: alps-core-api
   labels:
     team: platform
     language: csharp
+  tags:
+    - platform
+    - devportal
+    - internal
 spec:
   type: service
   lifecycle: production
