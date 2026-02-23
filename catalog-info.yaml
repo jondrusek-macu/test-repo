@@ -9,6 +9,10 @@ metadata:
   labels:
     team: platform
     language: csharp
+  tags:
+    - platform
+    - devportal
+    - internal
 spec:
   type: service
   lifecycle: production
